@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myName(a){
+document.getElementById("para").innerHTML="Mayank "+a;
+document.getElementById("para").style="color:red;";
+document.getElementById("Age").innerHTML="Age-30";
+document.getElementById("location").innerHTML="Bangalore";
+alert("Match");
+}
+
+function match_result(){
+document.getElementById("para").innerHTML="Click on Match Result";
+
+}
+</script>
+</head>
+<body>
+<div style="background:blue;">
+<h2 style= "color:white;padding-left:490px;" width="300" height="40" >Facebook</h2>
+</div>
+<div>
+<p id="para" style="color:green;">Friend Suggestion</p>
+<p id ="Age"></p>
+<p id="location"><p>
+<img id="myImage" src="mayank.jpg" style="width:100px"><br />
+<button id ="Gbutton" onclick = "document.getElementById('myImage').src='Mayank Srivastava_sad.jpg'">1</button> 
+<button id ="Rbutton" onclick = "document.getElementById('myImage').src='mayank.jpg'">2</button>
+<br /><br /><br />
+</div>
+<button id ="Cbutton" onclick = "myName('Matched')">Friend Request</button>
+<script>
+
+</script>
+</body>
+</html>	
